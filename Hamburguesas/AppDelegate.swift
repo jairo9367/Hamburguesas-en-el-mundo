@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Hamburguesas
-//
-//  Created by Jairo Abdala Castro on 30/01/16.
-//  Copyright © 2016 Jairo Abdala Castro. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
