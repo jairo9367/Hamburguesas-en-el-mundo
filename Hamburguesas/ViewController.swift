@@ -23,10 +23,8 @@ class ViewController: UIViewController {
     @IBAction func QuieroUnaHamburguesa(sender: AnyObject) {
         País.text = pais.RegresaPais()
         Hamburguesa.text = hamburguesa.RegresaHamburguesa()
-        var ColorAleatorio = color.RegresaColorAleatorio()
+        let ColorAleatorio = color.RegresaColorAleatorio()
         view.backgroundColor = ColorAleatorio
-        ColorAleatorio = color.RegresaColorAleatorio()
-        view.tintColor = ColorAleatorio
     }
 
         
